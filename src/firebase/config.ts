@@ -6,13 +6,14 @@ import { getStorage } from "firebase/storage";
 // Firebase configuration
 // Replace these with your actual Firebase config values
 const firebaseConfig = {
-  apiKey: "AIzaSyC1Z9WxDtPeUDtYCvH5eQAm-eu2h-XQn9M",
-  authDomain: "digisakhi-demo.firebaseapp.com",
-  projectId: "digisakhi-demo",
-  storageBucket: "digisakhi-demo.appspot.com",
-  messagingSenderId: "123456789012",
-  appId: "1:123456789012:web:abc123def456ghi789jkl"
+  apiKey: "AIzaSyDUMMY-KEY-REPLACE-ME123456",
+  authDomain: "your-app-name.firebaseapp.com",
+  projectId: "your-app-name",
+  storageBucket: "your-app-name.appspot.com",
+  messagingSenderId: "000000000000",
+  appId: "1:000000000000:web:dummyappid123456"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
