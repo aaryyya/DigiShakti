@@ -4,6 +4,7 @@ DigiSakhi is a comprehensive digital platform designed to empower rural and marg
 ![image](https://github.com/user-attachments/assets/395faa54-9616-496e-b841-f2113f2dfad6)
 ![image](https://github.com/user-attachments/assets/58a654b2-90d2-4ca2-809b-e4fe06354378)
 ![image](https://github.com/user-attachments/assets/a7a678dc-c369-427a-8262-2f78a3285dfb)
+*Courses Details*
 ![image](https://github.com/user-attachments/assets/da0959c7-30ba-4940-8793-9ea9e42d53a4)
 
 
