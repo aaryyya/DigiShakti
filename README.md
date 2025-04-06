@@ -42,10 +42,6 @@ DigiSakhi aims to bridge the digital divide for women in rural India by creating
 - Success stories and inspiration
 - Local community groups
 
-### 🌐 Multilingual Support
-- Content available in Hindi, English, and other regional languages
-- Voice-enabled features for those with limited literacy
-
 ## Technical Overview
 
 ### Frontend
