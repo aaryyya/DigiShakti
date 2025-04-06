@@ -1,46 +1,133 @@
-# Getting Started with Create React App
+# DigiSakhi - Empowering Rural Women through Digital Solutions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+DigiSakhi is a comprehensive digital platform designed to empower rural and marginalized women in India by providing access to digital marketplaces, skill development resources, and community support.
 
-## Available Scripts
+## Project Vision
 
-In the project directory, you can run:
+DigiSakhi aims to bridge the digital divide for women in rural India by creating an accessible platform that helps them:
 
-### `npm start`
+- Sell their handcrafted products in a global marketplace
+- Access educational resources and courses to develop new skills
+- Connect with a supportive community of like-minded entrepreneurs
+- Gain financial independence and improve their livelihoods
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Key Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 📱 Responsive Design
+- Mobile-first approach ensures accessibility even on basic smartphones
+- Offline capabilities for areas with limited connectivity
 
-### `npm test`
+### 🛒 Digital Marketplace
+- Easy product listing and management
+- Secure payment integration
+- Order tracking and management
+- Customer reviews and ratings
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎓 Learning Portal
+- Skill development courses in multiple languages
+- Business management tutorials
+- Financial literacy resources
+- Technical skills training
 
-### `npm run build`
+### 👥 Community Platform
+- Discussion forums for knowledge sharing
+- Mentorship opportunities
+- Success stories and inspiration
+- Local community groups
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🌐 Multilingual Support
+- Content available in Hindi, English, and other regional languages
+- Voice-enabled features for those with limited literacy
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technical Overview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Frontend
+- React.js with TypeScript
+- Material UI for responsive components
+- i18next for internationalization
 
-### `npm run eject`
+### Backend
+- Firebase Authentication
+- Firestore Database
+- Firebase Storage
+- Firebase Cloud Functions
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Deployment
+- Firebase Hosting
+- GitHub Actions for CI/CD
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Prerequisites
+- Node.js (v14 or newer)
+- npm or yarn
+- Firebase account
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repository:
+```
+git clone https://github.com/your-username/digisakhi.git
+cd digisakhi
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install dependencies:
+```
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Set up environment variables:
+Create a `.env` file based on `.env.example` and add your Firebase configuration.
+
+4. Start the development server:
+```
+npm start
+```
+
+5. Build for production:
+```
+npm run build
+```
+
+6. Deploy to Firebase:
+```
+npm run deploy
+```
+
+### Database Seeding
+
+To populate the database with sample data:
+```
+npm run seed
+```
+
+## Architecture
+
+The application follows a modular architecture with:
+
+- `/components`: Reusable UI components
+- `/pages`: Complete page components
+- `/services`: Firebase service integrations
+- `/hooks`: Custom React hooks
+- `/utils`: Utility functions and helpers
+- `/types`: TypeScript type definitions
+- `/firebase`: Firebase configuration and setup
+
+## Contributing
+
+We welcome contributions to DigiSakhi! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Firebase](https://firebase.google.com/)
+- [Material-UI](https://mui.com/)
+- [React Router](https://reactrouter.com/)
+- [i18next](https://www.i18next.com/)
+
+## Contact
+
+For questions or support, please email: digisakhi.support@example.com
